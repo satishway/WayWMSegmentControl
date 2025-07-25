@@ -24,10 +24,6 @@ let package = Package(
         .target(
             name: "WMSegmentControl",
             dependencies: [],
-            path: "Sources/WMSegmentControl"),
-        .testTarget(
-            name: "WMSegmentControlTests",
-            dependencies: ["WMSegmentControl"],
-            path: "Tests/WMSegmentControlTests"),
+            path: "WMSegmentControl"),
     ]
 ) 
